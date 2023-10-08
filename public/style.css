@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../assets/genre.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  
+}
+
+
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  font-weight: solid;
+  border: 2px solid #009688;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+h5{
+  color: white;
+  text-decoration: none;
+}

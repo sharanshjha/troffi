@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black; 
+    background-image: url(https://plus.unsplash.com/premium_photo-1667425092311-80658bb0c05f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNpbmVtYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+
+    
+  }
+  header{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+  }
+
+.container{
+  display: flex;
+  align-items: center;
+}
+.photo{
+  flex: 1;
+  padding: 20px;
+}
+.d{
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+  color: white;
+}
